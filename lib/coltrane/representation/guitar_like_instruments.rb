@@ -17,5 +17,11 @@ module Coltrane
       super
       end
     end
+
+    class Cavaquinho < Guitar
+      def initialize(tuning: %w[D3 G3 B3 D4])
+      super
+      end
+    end
   end
 end
